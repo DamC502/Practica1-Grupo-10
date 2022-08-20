@@ -1,0 +1,21 @@
+Aug 20 23:11:10.795 HYPERVISOR: Release 0.2.22-amd64/Linux (tag 2022052400)
+Aug 20 23:11:10.795 HYPERVISOR: Started on IP = localhost, TCP port = 35675.
+Aug 20 23:11:10.806 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 20 23:11:10.806 HYPERVISOR: exec_cmd: hypervisor working_dir /home/damihan/Documentos/Redes/Practica 1 - Grupo 10/Topologías/Practica1_201222687/project-files/dynamips 
+Aug 20 23:11:10.806 GENERAL: working_dir=/home/damihan/Documentos/Redes/Practica 1 - Grupo 10/Topologías/Practica1_201222687/project-files/dynamips
+Aug 20 23:11:10.807 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Aug 20 23:11:11.600 HYPERVISOR: exec_cmd: nio create_udp udp-c9e54391-4f08-419e-92b3-94cb8c8f8233 10001 127.0.0.1 10000 
+Aug 20 23:11:11.600 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-c9e54391-4f08-419e-92b3-94cb8c8f8233 
+Aug 20 23:11:11.610 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-c9e54391-4f08-419e-92b3-94cb8c8f8233 1 
+Aug 20 23:11:11.652 HYPERVISOR: exec_cmd: nio create_udp udp-aabafbbc-40de-4a44-91fc-8f4db1d87092 10002 127.0.0.1 10003 
+Aug 20 23:11:11.652 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-aabafbbc-40de-4a44-91fc-8f4db1d87092 
+Aug 20 23:11:11.670 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-aabafbbc-40de-4a44-91fc-8f4db1d87092 1 
+Aug 20 23:11:11.757 HYPERVISOR: exec_cmd: nio create_udp udp-7f260fc0-2d15-4fdb-b7a6-c44e03c6a53c 10005 127.0.0.1 10004 
+Aug 20 23:11:11.757 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-7f260fc0-2d15-4fdb-b7a6-c44e03c6a53c 
+Aug 20 23:11:11.770 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-7f260fc0-2d15-4fdb-b7a6-c44e03c6a53c 1 
+Aug 20 23:11:11.814 HYPERVISOR: exec_cmd: nio create_udp udp-65b29e41-9759-447f-8625-688418b59651 10006 127.0.0.1 10007 
+Aug 20 23:11:11.815 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-65b29e41-9759-447f-8625-688418b59651 
+Aug 20 23:11:11.830 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-65b29e41-9759-447f-8625-688418b59651 1 
+Aug 20 23:11:11.891 HYPERVISOR: exec_cmd: nio create_udp udp-34ef811f-0018-40e8-8a0a-743925b13eaa 10008 127.0.0.1 10009 
+Aug 20 23:11:11.891 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-34ef811f-0018-40e8-8a0a-743925b13eaa 
+Aug 20 23:11:11.911 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-34ef811f-0018-40e8-8a0a-743925b13eaa 1 
